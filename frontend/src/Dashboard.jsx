@@ -7,7 +7,7 @@ import BestSolutionCard from "./components/BestSolutionCard";
 import InvestmentSummary from "./components/InvestmentSummary";
 import SolutionChart, { PolynomialChart } from "./components/SolutionChart";
 
-const API = "http://localhost:5000/solve";
+const API = "https://goinnovatex.onrender.com/solve";
 const PAGE_SIZE = 50;
 const COLORS = ["#3b82f6", "#10b981", "#f59e0b", "#8b5cf6", "#ef4444", "#06b6d4"];
 
