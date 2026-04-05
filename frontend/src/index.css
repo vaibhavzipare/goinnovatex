@@ -1,0 +1,25 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #060d1a;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+}
+
+input:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.1);
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #060d1a; }
+::-webkit-scrollbar-thumb { background: #1e2d4a; border-radius: 4px; }
